@@ -17,6 +17,7 @@ console.log(firstName);
 // let jonas_matilda = 'JM';
 // let $function = 27;
 // let name = 'Jonas';
+// ! name is a JS keyword
 // let Person = 'Jonas';
 
 // * Be descriptive
