@@ -17,8 +17,15 @@ console.log(population);
 const populationFinland = 6;
 const populationAverage = 33;
 console.log(population > populationFinland, population > populationAverage);
+
 // concatination of a string
 // let description = country + ' is in ' + continent + ', and its ' + population + ' million people speak ' + language;
 // * template literal string (uses backtick)
 let description = `${country} is in ${continent}, and its ${population} million people speak ${language}`
 console.log(description);
+
+if (population > populationAverage) {
+  console.log(`${country} has a population above the average.`)
+} else {
+  console.log(`${country} had a population ${populationAverage - population} million below average.`)
+}
