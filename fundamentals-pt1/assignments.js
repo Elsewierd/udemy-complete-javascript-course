@@ -29,3 +29,11 @@ if (population > populationAverage) {
 } else {
   console.log(`${country} had a population ${populationAverage - population} million below average.`)
 }
+
+a='9' - '5';
+b='19' - '13' + '17';
+c='19' - '13' + 17;
+d='123' < 57;
+e=5 + 6 + '4' + 9 - 4 - 2;
+
+console.log(a,b,c,d,e);
