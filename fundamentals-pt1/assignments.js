@@ -3,7 +3,7 @@
 const country = 'United States of America';
 const continent = 'North America';
 const isIsland = false;
-let language = 'english';
+const language = 'english';
 let population = 340.73; // In millions
 // console.log(country, continent, population)
 
@@ -17,5 +17,8 @@ console.log(population);
 const populationFinland = 6;
 const populationAverage = 33;
 console.log(population > populationFinland, population > populationAverage);
-let description = country + ' is in ' + continent + ', and its ' + population + ' million people speak ' + language
-console.log(description)
+// concatination of a string
+// let description = country + ' is in ' + continent + ', and its ' + population + ' million people speak ' + language;
+// * template literal string (uses backtick)
+let description = `${country} is in ${continent}, and its ${population} million people speak ${language}`
+console.log(description);
